@@ -6,8 +6,8 @@ if(c == 0){
 }
 else if (c > 10){
     c = c % 10;
-    Console.WriteLine($"Цифра в разряде сотен равна {c}");  
+    Console.WriteLine($"Цифра в разряде сотен равна: {c}");  
 }
 else {
-    Console.WriteLine($"Цифра в разряде сотен равна {c}");
+    Console.WriteLine($"Цифра в разряде сотен равна: {c}");
 }
