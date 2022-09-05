@@ -1,6 +1,6 @@
 ﻿Console.Write("Введите трехзначное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-int d = a % 100-a % 10;
+int d = a % 100;
 if(d == 0){
 Console.WriteLine(d);
 }
